@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MircServer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/MircServer.res" /d "NDEBUG" /d "_AFXDLL" "L:\Fast\Semester1\Applied Algorithm\Concurrent Programming\Project\State4\MircServer\MircServer.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2170.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MircServer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"L:\Fast\Semester1\Applied Algorithm\Concurrent Programming\Project\State4\MircServer\MircServer.cpp"
+"L:\Fast\Semester1\Applied Algorithm\Concurrent Programming\Project\State4\MircServer\MircServerDlg.cpp"
+"L:\Fast\Semester1\Applied Algorithm\Concurrent Programming\Project\State4\MircServer\ServerConnections.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2170.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2171.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MircServer.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"L:\Fast\Semester1\Applied Algorithm\Concurrent Programming\Project\State4\MircServer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2171.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2172.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/MircServer.pdb" /machine:I386 /out:"Release/MircServer.exe" 
+".\Release\MircServer.obj"
+".\Release\MircServerDlg.obj"
+".\Release\ServerConnections.obj"
+".\Release\StdAfx.obj"
+".\Release\MircServer.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP2172.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MircServer.cpp
+MircServerDlg.cpp
+ServerConnections.cpp
+L:\Fast\Semester1\Applied Algorithm\Concurrent Programming\Project\State4\MircServer\ServerConnections.cpp(93) : warning C4101: 'ipAddress' : unreferenced local variable
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MircServer.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

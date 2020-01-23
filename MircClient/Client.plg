@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Client - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/Client.res" /d "NDEBUG" /d "_AFXDLL" "L:\Fast\Semester1\Applied Algorithm\Concurrent Programming\Project\State4\MircClient\Client.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3023.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Client.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"L:\Fast\Semester1\Applied Algorithm\Concurrent Programming\Project\State4\MircClient\CDialog.cpp"
+"L:\Fast\Semester1\Applied Algorithm\Concurrent Programming\Project\State4\MircClient\Client.cpp"
+"L:\Fast\Semester1\Applied Algorithm\Concurrent Programming\Project\State4\MircClient\ClientDlg.cpp"
+"L:\Fast\Semester1\Applied Algorithm\Concurrent Programming\Project\State4\MircClient\CSocket.cpp"
+"L:\Fast\Semester1\Applied Algorithm\Concurrent Programming\Project\State4\MircClient\FileSocket.cpp"
+"L:\Fast\Semester1\Applied Algorithm\Concurrent Programming\Project\State4\MircClient\MySocket.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP3023.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3024.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Client.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"L:\Fast\Semester1\Applied Algorithm\Concurrent Programming\Project\State4\MircClient\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP3024.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3025.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Client.pdb" /machine:I386 /out:"Release/Client.exe" 
+".\Release\CDialog.obj"
+".\Release\Client.obj"
+".\Release\ClientDlg.obj"
+".\Release\CSocket.obj"
+".\Release\FileSocket.obj"
+".\Release\MySocket.obj"
+".\Release\StdAfx.obj"
+".\Release\Client.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP3025.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CDialog.cpp
+Client.cpp
+ClientDlg.cpp
+CSocket.cpp
+FileSocket.cpp
+MySocket.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Client.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
