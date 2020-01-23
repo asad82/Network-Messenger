@@ -23,7 +23,7 @@ Implementation:
 
 8.	How Multiple Connections are Handled: The server handles multiple Client connections by maintaining an array of objects of the socket class i.e. one for each client and updates them with time.
 
-9.	In short the MIRC messenger works perfectly and has also been tested on the university LAN.
+9.	In short the MIRC messenger works perfectly and has also been tested on the LAN.
 
 10.	PICTURES: A pictures folder has been included which shows the program in action and different states and functionalities that have been implemented. Do see them to get a fair view. 
 
