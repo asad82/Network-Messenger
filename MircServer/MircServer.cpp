@@ -1,5 +1,11 @@
 // MircServer.cpp : Defines the class behaviors for the application.
 //
+/***************************************************************************
+copyright            : (C) Asad Ali
+email                : asad_82@yahoo.com
+website		     : sites.google.com/site/asad82
+***************************************************************************/
+// Programmed by Asad Ali
 
 #include "stdafx.h"
 #include "MircServer.h"
